@@ -10,7 +10,7 @@
   text-align: center;
   font-size: 18px;
   cursor: pointer;
-
+  user-select:none;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,7 +30,7 @@
   display: block;
   width: 100%;
   height: 100%;
-
+  user-select:none;
   object-fit: cover;
 }
 .CountrySlider {
@@ -45,6 +45,7 @@
     width: 750px;
   }
   > h1 {
+    user-select:none;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 900;
@@ -52,7 +53,9 @@
     line-height: 51px;
     margin-bottom: 19px;
   }
-  > h2 {color: #FFFFFF;
+  > h2 {
+    user-select:none; 
+    color: #FFFFFF;
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
