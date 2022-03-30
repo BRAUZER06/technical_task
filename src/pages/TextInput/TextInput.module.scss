@@ -1,0 +1,31 @@
+.container {
+  font-family: "Roboto";
+  display: flex;
+  margin: 0 auto;
+  max-width: 1120px;
+  border-radius: 4px;
+  align-items: center;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 8px 14px 8px 16px;
+  border: 1px solid #e8e8e8;
+  &__div {
+    width: 100%;
+    margin-right: 38px;
+    &_input {
+      width: 100%;
+      height: 32px;
+      outline: none;
+      font-size: 14px;
+      border: inherit;
+      font-weight: 400;
+      color: #7d7d7d;
+      line-height: 24px;
+      font-style: normal;
+    }
+    &_img {
+      cursor: pointer;
+      font-size: 1.1em;
+    }
+  }
+}

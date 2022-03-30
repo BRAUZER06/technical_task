@@ -1,0 +1,62 @@
+.swiper {
+  font-family: "Montserrat", sans-serif;
+
+  width: 740px;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+.CountrySlider {
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  text-align: center;
+  &_hr {
+    
+    margin: 15px auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, #ffffff 51.04%, rgba(255, 255, 255, 0.1) 100%);
+    height: 2px;
+    width: 750px;
+  }
+  > h1 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 51px;
+    margin-bottom: 19px;
+  }
+  > h2 {color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+  }
+}
